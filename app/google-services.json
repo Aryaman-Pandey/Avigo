@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "879471236842",
+    "firebase_url": "https://avigo-8fe7e.firebaseio.com",
+    "project_id": "avigo-8fe7e",
+    "storage_bucket": "avigo-8fe7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879471236842:android:937c23e9d42ba3e7966993",
+        "android_client_info": {
+          "package_name": "com.example.avigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879471236842-3bc11vaf1gndd1mebtluik19uudthafv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9j9WldE-19mTcRS2Yps60FlORpNlxwGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879471236842-3bc11vaf1gndd1mebtluik19uudthafv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

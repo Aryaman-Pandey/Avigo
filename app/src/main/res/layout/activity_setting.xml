@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bubbleback"
+    tools:context=".SettingActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Setting"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:textColor="@android:color/holo_blue_dark"
+                    >
+                </TextView>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ImageView
+       android:id="@+id/setting_profile_image"
+       android:layout_width="250dp"
+       android:layout_height="250dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="70dp"
+       android:src="@drawable/profile_image"
+        android:layout_below="@+id/app_bar_setting"
+        >
+   </ImageView>
+
+    <EditText
+        android:id="@+id/username_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/edit_profile"
+        android:drawableTint="@android:color/darker_gray"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="30dp"
+        android:hint="Write your name"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/setting_profile_image"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/bio_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/edit_status"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableTint="@android:color/darker_gray"
+        android:hint="Write your Bio"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/username_setting"
+        >
+     </EditText>
+
+    <Button
+        android:id="@+id/save_setting_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:text="Save"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:layout_below="@+id/bio_setting"
+        >
+    </Button>
+
+
+</RelativeLayout>
